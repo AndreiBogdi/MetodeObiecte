@@ -12,10 +12,10 @@ public class Main {
         float resultimpartire = met.impartire(x,y);
         float resultmedie = met.medie(a,b,c);
         String resultname = met.printMyName();
-        System.out.println("Rezultatul adunarii este:"+ (resultadunare));
-        System.out.println(resultscadere);
-        System.out.println("Rezultatul inmultirii este:"+ (resultinmultire));
-        System.out.println("Rezultatul impartirii este:"+ (resultimpartire));
+        System.out.println("Rezultatul adunarii 3+ 3 este"+ (resultadunare));
+        System.out.println("Rezultatul scaderii 3-3 este"+ (resultscadere));
+        System.out.println("Rezultatul inmultirii 3*3 este"+ (resultinmultire));
+        System.out.println("Rezultatul impartirii 3/3 este"+ (resultimpartire));
         System.out.println("Media celor 3 parametrii este:"+ (resultmedie));
         System.out.println(resultname);
     }
