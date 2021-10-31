@@ -31,7 +31,7 @@ public class Main {
 class ShowPicture {
         public static void main(String args[]){
             JFrame frame = new JFrame();
-            ImageIcon icon = new ImageIcon("JavaLogo.png");//nu merge
+            ImageIcon icon = new ImageIcon("JavaLogo.png");//Am dat un search pe google,dar nu merge.
             JLabel label = new JLabel(icon);
             frame.add(label);
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
